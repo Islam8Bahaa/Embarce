@@ -1,0 +1,1227 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* outline: 2px solid red; */
+}
+
+h1,h2,h3,h4,h5,h6,p,span{
+    font-family: 'General Sans Variable';
+    font-style: normal;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+img{
+    width: auto;
+    height: auto;
+}
+
+/* Start Header */
+
+/*-------------- Start Navbar ----------------*/
+
+.header .header-container{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 15px;
+}
+
+.header .header-container .frame{
+    display: flex;
+    align-items: center;
+    flex-basis: 55%;
+    justify-content: space-between;
+}
+
+
+.header .header-container .frame h2{
+    margin: 0;
+    font-family: 'Helvetica';
+    font-weight: 700;
+    font-size: 28.2353px;
+    line-height: 32px;
+}
+
+.header .header-container .frame .logo,
+.header .header-container .frame .logo .first{
+    display: flex;
+    align-items: center;
+}
+
+
+.header .header-container .frame nav{
+    flex-basis: 64%;
+}
+
+.header .header-container .frame nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    margin: 0;
+}
+
+.header .header-container .frame nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+.header .header-container button{
+    border-radius: 70px;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+
+/*-------------- End Navbar ----------------*/
+
+
+/*-------------- Start Banner Section ----------------*/
+
+.banner .banner-container{
+    padding-top: 5%;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+}
+
+.banner .banner-container .brand{
+    flex-basis: 32%;
+}
+.banner .banner-container .images .box{
+    display: flex;
+    justify-content: space-around;
+}
+
+.banner .banner-container .brand .text h1{
+    font-weight: 700;
+    color: #000000;
+    font-size: 80px;
+}
+
+.banner .banner-container .brand .text2{
+
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+
+    color: rgba(0, 0, 0, 0.6);
+    margin: 10% 0;
+}
+
+.banner .banner-container .brand .email{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.banner .banner-container .brand .email button{
+    border-radius: 70px;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.banner .banner-container .brand .email input{
+    border: none;
+    background: #FAFAFA;
+    border-radius: 37px;
+    width: 55%;
+    padding: 13px;
+}
+.banner .banner-container .images .box3{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.banner .banner-container .images .box2{
+    display: flex;
+    justify-content: space-between;
+}
+.banner .banner-container .images .box3{
+    position: relative;
+}
+
+.banner .banner-container .images .box2 .pin {
+    width: 241px;
+    height: 190px;
+    background: #3461FF;
+    border-radius: 119.5px;
+    position: relative;
+}
+
+.banner .banner-container .images{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.banner .banner-container .images .box{
+    position: relative;
+}
+
+.banner .banner-container .images .box .pin {
+
+    width: 95.94px;
+    height: 91.5px;
+    background: #000000;
+    
+    text-align: center;
+    position: absolute;
+    top: -8%;
+    right: 31%;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 75% 75%, 75% 100%, 50% 75%, 0% 75%);
+    rotate: -22deg;
+}
+
+.banner .banner-container .images .box2 .pin img {
+    position: absolute;
+    top: 26%;
+    right: 32%;
+    
+}
+
+.banner .banner-container .images .box3 .pin img {
+    position: absolute;
+    top: 22%;
+    right: 24%;
+    
+}
+
+.banner .banner-container .images .box3 .pin2 img {
+    position: absolute;
+    top: 22%;
+    right: 23%;
+    
+}
+
+
+.banner .banner-container .images .box3 .pin {
+    width: 184px;
+    height: 240px;
+    background: #E0FF22;
+    border-radius: 119.5px;
+    position: relative;
+}
+
+.banner .banner-container .images .box3 .pin2{
+    width: 183px;
+    height: 240px;
+    background: #F1F4FF;
+    border-radius: 119.5px;
+    position: relative;
+}
+
+.banner .banner-container .images .box3 .pin3 {
+    position: absolute;
+    width: 99.94px;
+    height: 91.5px;
+    text-align: center;
+    background: #000000;
+    transform: matrix(0.95, 0.31, -0.31, 0.95, 0, 0);
+    clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 75% 75%, 75% 100%, 50% 75%, 0% 75%);
+    rotate: 29deg;
+    top: -10%;
+    z-index: 2;
+    right: 57%;
+}
+
+
+/*-------------- End Banner Section ----------------*/
+
+
+
+/* End Header */
+
+/* Start Main */
+
+/*-------------- Start Partner Section ----------------*/
+
+.partner{
+    margin-top: 5%;
+    background: #FAFAFA;
+    padding: 5% 0;
+}
+
+.partner .work {
+    display: flex;
+    justify-content: start;
+    align-items: baseline;
+}
+
+.partner .work .head h1 {
+
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 54px;
+    
+}
+
+.partner .work .head{
+    flex-basis: 25%;
+}
+
+
+.partner .work .text  {
+
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+
+    width: 30%;
+    color: #252525;
+}
+
+.partner .company{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 5%;
+}
+
+.partner .company .box{
+    flex-basis: 20%;
+    margin-bottom: 5%;
+}
+
+
+
+/*-------------- End Partner Section ----------------*/
+
+/*-------------- Start Our Section ----------------*/
+.our{
+    margin-top: 5%;
+}
+
+.our .our-container{
+    display: flex;
+
+}
+
+.our .our-container .count{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.our .our-container .count .box {
+    flex-basis: 45%;
+    margin-bottom: 7%;
+}
+
+
+
+.our .our-container .count .box h1{
+    
+    font-style: normal;
+    font-weight: bold;
+    font-size: 55px;
+}
+
+.our .our-container .commit {
+    flex-basis: 48%;
+}
+
+.our .our-container .commit h1{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 54px;
+    text-transform: capitalize;
+}
+
+
+.our .our-container .commit span{
+    
+
+font-weight: 400;
+font-size: 18px;
+line-height: 32px;
+
+color: rgba(0, 0, 0, 0.6);
+}
+
+.our .our-container .commit p{
+
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    text-decoration-line: underline;
+
+    color: #3461FF;
+    margin-top: 5%;
+}
+
+/*-------------- End Our Section ----------------*/
+
+/*-------------- Start How Section ----------------*/
+.how{
+    margin-top: 5%;
+}
+
+.how .how-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.how .how-container .it{
+    flex-basis: 50%;
+}
+
+.how .how-container .it img{
+    height: 53%;
+}
+
+.how .how-container .it h1{
+
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 54px;
+
+}
+
+.how .how-container .it p{
+
+font-weight: 400;
+font-size: 18px;
+line-height: 32px;
+
+color: rgba(0, 0, 0, 0.6);
+width: 65%;
+margin:5% 0 ;
+}
+
+.how .how-container .works{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.how .how-container .works .box{
+    flex-basis: 35%;
+}
+
+.how .how-container .works .box .img{
+    width: 102px;
+height: 102px;
+background: #3461FF;
+text-align: center;
+border-radius: 24px;
+}
+
+.how .how-container .works .box .img img{
+    margin-top: 25%;
+}
+
+.how .how-container .works .box h4{
+    margin: 7% 0;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 38px;
+    text-transform: capitalize;
+}
+
+.how .how-container .works .box p{
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+text-transform: capitalize;
+color: rgba(0, 0, 0, 0.6);
+}
+
+
+/*-------------- End How Section ----------------*/
+
+/*-------------- Start Our Work Section ----------------*/
+.our-work{
+    margin-top: 5%;
+}
+
+.our-work .head {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.our-work .head .text {
+    width: 55%;
+    text-align: center;
+}
+
+.our-work .head .text h1{
+
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 54px;
+    text-transform: capitalize;
+}
+.our-work .head .text p{
+    
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+    text-transform: capitalize;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.our-work .boxes{
+    padding-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.our-work .boxes .box{
+    text-align: center;
+}
+
+.our-work .boxes .box h4{
+    margin: 5% 0;
+}
+
+.our-work .boxes .box  span{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    text-transform: capitalize;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.our-work .button{
+    text-align: center;
+    margin-top: 5%;
+}
+
+.our-work .button button{
+    border-radius: 70px;
+    padding: 16px 48px;
+    width: 15%;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 32px;
+}
+
+
+/*-------------- End Our Work Section ----------------*/
+
+/*-------------- Start Start Section ----------------*/
+
+.start{
+    margin-top: 5%;
+    background-image: url(/img/Rectangle\ 164.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 46.5vh;
+
+}
+
+.start .images{
+    position: relative;
+}
+
+.start .images .box{
+    position: absolute;
+    z-index: 8;
+}
+.start .images .box2{
+    position: absolute;
+    left: 0%;
+    z-index: 4;
+}
+.start .images .box3{
+    position: absolute;
+    z-index: 3;
+    left: 21%;
+}
+.start .images .box4{
+    position: absolute;
+    left: 7%;
+}
+
+
+.start .start-container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.start .start-container .head{
+    z-index: 10;
+    flex-basis: 30%;
+    margin-top: 3%;
+}
+
+.start .start-container .head h1{
+    
+
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 56px;
+text-transform: capitalize;
+color: #FFFFFF;
+}
+
+.start .start-container .text{
+    z-index: 10;
+    flex-basis: 46%;
+    margin-top: 6%;
+}
+
+.start .start-container .text .box p{
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+
+
+.start .start-container .text .box span{
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    text-decoration-line: underline;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+
+
+
+/*-------------- End Start Section ----------------*/
+
+/*-------------- Start Our Team  Section ----------------*/
+.meet{
+    margin-top: 5%;
+}
+.meet .meet-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.meet .meet-container .team{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.meet .meet-container .team .box{
+    margin-bottom: 5%;
+}
+
+.meet .meet-container .our-team{
+    flex-basis: 65%;
+}
+
+.meet .meet-container .our-team .head .h1{
+
+font-style: normal;
+font-weight: 600;
+font-size: 40px;
+line-height: 54px;
+text-transform: capitalize;
+}
+.meet .meet-container .our-team .more h3{
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 40px;
+    text-transform: capitalize;
+    color: rgba(0, 0, 0, 0.6);
+    margin-top: 5%;
+
+}
+
+
+.meet .meet-container .our-team .text p{
+
+font-weight: 400;
+font-size: 18px;
+line-height: 32px;
+
+color: rgba(0, 0, 0, 0.6);
+margin: 5% 0;
+}
+
+.meet .meet-container .our-team .button button{
+    width: 222px;
+    height: 64px;
+    border-radius: 69px;
+}
+
+/*-------------- End Our Team Section ----------------*/
+/*-------------- Start Journey Section ----------------*/
+
+.journey{
+    margin-top: 5%;
+    background-image: url(/img/Rectangle\ 190.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 15%;
+}
+
+.journey .journey-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.journey .journey-container .head .box{
+    width: 60%;
+    margin-bottom: 10%;
+  
+}
+
+.journey .journey-container .head .box h1{
+
+font-weight: 500;
+font-size: 48px;
+line-height: 63px;
+text-transform: capitalize;
+color: #FFFFFF;
+}
+
+.journey .journey-container .shape .box{
+    top: 36%;
+    right: 29%;
+    position: absolute;
+    color: blue;
+    font-size: 70px;
+
+}
+
+.journey .journey-container .shape{
+    position: relative;
+}
+
+
+/*-------------- End Journey Section ----------------*/
+
+/*-------------- Start FAQ Section ----------------*/
+
+.faq .faq-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.faq .faq-container .ques{
+    flex-basis: 45%;
+}
+
+
+.faq .faq-container .ques .box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.faq .faq-container .ques .box svg{
+    background: #3461FF;
+    color: white;
+    border-radius: 50%;
+    padding: 5px;
+}
+
+
+.faq .faq-container .how .head h1{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+    letter-spacing: 0.2px;
+    text-transform: capitalize;
+}
+
+.faq .faq-container .how .text p{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 36px;
+    color: rgba(0, 0, 0, 0.6);
+    mix-blend-mode: normal;
+    opacity: 0.75;
+    text-transform: none;
+    width: 62%;
+    margin: 3% 0;
+}
+
+
+
+.faq .faq-container .how .email button{
+    border-radius: 70px;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.faq .faq-container .how .email button{
+    border-radius: 70px;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.faq .faq-container .how .email input{
+    border: none;
+    background: #FAFAFA;
+    border-radius: 37px;
+    width: 55%;
+    padding: 13px;
+}
+
+.faq .faq-container .how p{
+    margin-top: 3%;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    text-decoration-line: underline;
+    color: #3461FF;
+}
+
+
+/*-------------- End FAQ Section ----------------*/
+/*-------------- Start Footer Section ----------------*/
+
+.footer{
+    background: #FAFAFA;
+    margin-top: 5%;
+    padding-top: 5%;
+}
+
+.footer .footer-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer .footer-container .end .logo,
+.footer .footer-container .end .logo .first{
+    display: flex;
+    align-items: center;
+}
+
+.footer .footer-container .end .logo h2{
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36.5629px;
+    line-height: 42px;
+    margin: 0;
+}
+
+.footer .footer-container .end .text {
+    font-family: 'General Sans Variable';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    margin: 10% 0;
+}
+
+.footer .footer-container .end .icons{
+    margin-bottom: 10%;
+    color: #3461FF;
+    font-size: 25px;
+}
+
+.footer .footer-container .end .icons svg{
+    margin-right:  5%;
+}
+
+.footer .footer-container .end .button button{
+
+padding: 16px 48px;
+width: 295px;
+height: 64px;
+background: #3461FF;
+border-radius: 69px;
+}
+
+
+.footer .footer-container .contact {
+    display: flex;
+    justify-content: space-between;
+    flex-basis: 50%;
+    align-items: baseline;
+}
+
+.footer .footer-container .contact p{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 30%;
+}
+
+
+.bottom{
+    background: rgba(0, 0, 0, 0.8);
+    padding: 2% 0;
+}
+
+.bottom .bottom-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bottom .bottom-container .head h6{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+
+.bottom .bottom-container .text{
+    flex-basis: 15%;
+}
+
+.bottom .bottom-container .text span{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF;
+    margin-left: 5%;
+}
+
+/*-------------- End Footer Section ----------------*/
+
+@media (max-width: 1200px) {
+    img{
+        width: 100%;
+        height: auto;
+    }
+    .banner .banner-container .images .box .pin img{
+        width: 70%;
+    }
+
+    .banner .banner-container .images .box2 .pin img {
+        position: absolute;
+        top: 22%;
+        right: 30%;
+        width: 40%;
+    }
+    .banner .banner-container .images .box3 .pin3 {
+        position: absolute;
+        width: 56.94px;
+        height: 75.5px;
+    }
+    .banner .banner-container .images .box3 .pin img,
+    .banner .banner-container .images .box3 .pin2 img{
+        width: 50%;
+    }
+    .partner .company .box{
+        padding: 0 15px;
+    }
+    .how .how-container{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .how .how-container .it h1,
+    .how .how-container .it p{
+        text-align: center;
+        width: 100%;
+    }
+
+    .how .how-container .it{
+        flex-basis: 65%;
+    }
+    .how .how-container .works .box .img img{
+        width: 50%;
+    }
+    .our-work .button button{
+        padding: 8px 0;
+        width: 40%;
+    }
+    .start .start-container{
+        flex-wrap: wrap;
+    }
+    .start .start-container .head{
+        flex-basis: 44%;
+    }
+    .start .start-container .text{
+        flex-basis: 50%;
+    }
+    .start{
+        height: 50vh;
+    }
+
+    .journey .journey-container .shape img{
+        width: 60%;
+    }
+    .journey .journey-container .shape .box{
+        font-size: 30px;
+        right: 56%;
+    }
+}
+
+
+@media (max-width: 992px) {
+    .banner .banner-container{
+        flex-wrap: wrap;
+        
+    }
+    .banner .banner-container .images{
+        margin-top: 5%;
+    }
+    .banner .banner-container .brand{
+        flex-basis: 100%;
+    }
+
+    .banner .banner-container .images .box .pin {
+        width: 72.94px;
+        height: 70.5px;
+    }
+    .banner .banner-container .images .box2 .pin img {
+        position: absolute;
+        top: 22%;
+        right: 30%;
+        width: 40%;
+    }
+    .banner .banner-container .images .box3 .pin img,
+    .banner .banner-container .images .box3 .pin2 img{
+        width: 50%;
+    }
+
+    .header .header-container .frame nav{
+        display: none;
+    }
+
+    .partner .work .head {
+        flex-basis: 52%;
+    }
+    .partner .work .text{
+        width: 48%;
+    }
+
+    .our .our-container{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .our .our-container .commit{
+        flex-basis: 100%;
+        text-align: center;
+    }
+    .our .our-container .count .box{
+        flex-basis: 50%;
+    }
+
+    .our-work .boxes{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .start .start-container .head,
+    .start .start-container .text{
+        flex-basis: 100%;
+        text-align: center;
+    }
+    .journey .journey-container .head .box{
+        width: 100%;
+    }
+    .journey .journey-container .head .box h1{
+        font-size: 32px;
+    }
+    .faq .faq-container{
+        flex-wrap: wrap;
+        
+    }
+
+    .faq .faq-container .ques{
+        flex-basis: 100%;
+    }
+    
+    
+}
+
+@media (max-width: 768px) {
+    .banner .banner-container .images .box2 .pin img {
+        position: absolute;
+        top: 33%;
+        right: 27%;
+        width: 50%;
+    }
+    .banner .banner-container .images .box2 .pin{
+        width: 28%;
+    }
+
+    .container, .container-sm {
+        max-width: 100%; 
+    }
+    .partner .work{
+        flex-wrap: wrap;
+    }
+    .partner .work .head,
+    .partner .work .text{
+        flex-basis: 100%;
+        width: 100%;
+        text-align: center;
+    }
+
+    .how .how-container .it{
+        flex-basis: 100%;
+    }
+    .how .how-container .works .box{
+        flex-basis: 47%;
+    }
+    .start .start-container .head h1{
+        font-size: 35px;
+    }
+    .meet .meet-container{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .meet .meet-container .our-team{
+        flex-basis: 100%;
+        text-align: center;
+    }
+    .journey .journey-container .head .box h1{
+        font-size: 25px;
+    }
+    .banner .banner-container .brand .text h1{
+        font-size: 55px;
+    }
+    .banner .banner-container .images{
+        width: 100%;
+    }
+    .banner .banner-container .images .box2 .pin{
+        height: 155px;
+    }
+}
+
+@media (max-width: 576px) {
+    
+    .banner .banner-container .images .box .pin {
+        width: 50.94px;
+        height: 52.5px;
+        top: 3%;
+    }
+    .banner .banner-container .images .box3 .pin,
+    .banner .banner-container .images .box3 .pin2{
+        height: 150px;
+    }
+    .partner .work .head h1{
+        font-size: 30px;
+    }
+    .our .our-container .count .box{
+        flex-basis: 100%;
+        text-align: center;
+    }
+    .how .how-container .works .box {
+        flex-basis: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .how .how-container .works .box h4{
+        margin: 4% 0 ;
+    }
+    .start .start-container .head h1{
+        font-size: 25px;
+    }
+    .journey .journey-container .shape{
+        width: 60%;
+        margin-left: 20%;
+        margin-top: 5%;
+    }
+    .journey .journey-container .shape .box{
+        font-size: 25px;
+    }
+    .journey .journey-container{
+        flex-wrap: wrap;
+    }
+    .journey .journey-container .head{
+        text-align: center;
+    }
+    .footer .footer-container{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .footer .footer-container .end{
+        width: 100%;
+    }
+    .footer .footer-container .contact{
+        flex-basis: 100%;
+        flex-wrap: wrap;
+
+    }
+
+    .footer .footer-container .end .button button{
+        width: 245px;
+    }
+
+    .bottom .bottom-container{
+        flex-wrap: wrap;
+    }
+    .bottom .bottom-container .text{
+        flex-basis: 100%;
+    }
+    .banner .banner-container .brand .text h1{
+        font-size: 40px;
+    }
+
+}
+
+@media (max-width: 380px) {
+    .banner .banner-container .images .box3 .pin,
+    .banner .banner-container .images .box3 .pin2{
+        height: 177px;
+    }
+    .partner .work .head h1{
+        font-size: 20px;
+    }
+
+    .how .how-container .works{
+        margin-top:28% ;
+    }
+
+    .start .start-container .head h1{
+        font-size: 20px;
+    }
+    .start .start-container .text .box p{
+        font-size: 10px;
+    }
+    .journey .journey-container .shape .box{
+        font-size: 15px;
+    }
+    .banner .banner-container .images .box2 .pin{
+        height: 100px;
+    }
+    .partner .company .box{
+        padding: 0 5px;
+    }
+    .banner .banner-container .images .box .pin{
+        width: 35.94px;
+        height: 37.5px;
+    }
+
+    .banner .banner-container .images .box3 .pin3 {
+        width: 30.94px;
+        height: 42.5px;
+    }
+    
+    
+}
+
+@media (max-width: 280px) {
+    .start .start-container .head h1{
+        font-size: 15px;
+    }
+    .banner .banner-container .images .box3 .pin,
+    .banner .banner-container .images .box3 .pin2{
+        height: 100px;
+    }
+}
