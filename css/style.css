@@ -2,7 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    /* outline: 2px solid red; */
+    outline: 2px solid red;
 }
 
 h1,h2,h3,h4,h5,h6,p,span{
@@ -81,7 +81,6 @@ img{
 .banner .banner-container{
     padding-top: 5%;
     display: flex;
-    align-items: baseline;
     justify-content: space-between;
 }
 
@@ -128,104 +127,35 @@ img{
     width: 55%;
     padding: 13px;
 }
-.banner .banner-container .images .box3{
-    display: flex;
-    justify-content: space-between;
-}
 
-
-.banner .banner-container .images .box2{
-    display: flex;
-    justify-content: space-between;
-}
-.banner .banner-container .images .box3{
+.banner .banner-container .images {
     position: relative;
 }
 
-.banner .banner-container .images .box2 .pin {
-    width: 241px;
-    height: 190px;
-    background: #3461FF;
-    border-radius: 119.5px;
-    position: relative;
-}
-
-.banner .banner-container .images{
-    display: flex;
-    flex-direction: column;
-
-}
-
-.banner .banner-container .images .box{
-    position: relative;
-}
-
-.banner .banner-container .images .box .pin {
-
-    width: 95.94px;
-    height: 91.5px;
-    background: #000000;
-    
-    text-align: center;
+.banner .banner-container .images .box1 {
     position: absolute;
-    top: -8%;
-    right: 31%;
-    clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 75% 75%, 75% 100%, 50% 75%, 0% 75%);
-    rotate: -22deg;
+    top: 35rem;
+    right: 7%;
 }
-
-.banner .banner-container .images .box2 .pin img {
+.banner .banner-container .images .box2 {
     position: absolute;
-    top: 26%;
-    right: 32%;
-    
+    top: 35rem;
+    right: 37%;
 }
 
-.banner .banner-container .images .box3 .pin img {
+.banner .banner-container .images .box3 {
     position: absolute;
-    top: 22%;
-    right: 24%;
-    
+    top: 2%;
+    right: 37%;
+    rotate: -20deg;
 }
 
-.banner .banner-container .images .box3 .pin2 img {
+.banner .banner-container .images .box4 {
     position: absolute;
-    top: 22%;
-    right: 23%;
-    
+    top: 60%;
+    right: 55%;
+    rotate: 21deg;
 }
-
-
-.banner .banner-container .images .box3 .pin {
-    width: 184px;
-    height: 240px;
-    background: #E0FF22;
-    border-radius: 119.5px;
-    position: relative;
-}
-
-.banner .banner-container .images .box3 .pin2{
-    width: 183px;
-    height: 240px;
-    background: #F1F4FF;
-    border-radius: 119.5px;
-    position: relative;
-}
-
-.banner .banner-container .images .box3 .pin3 {
-    position: absolute;
-    width: 99.94px;
-    height: 91.5px;
-    text-align: center;
-    background: #000000;
-    transform: matrix(0.95, 0.31, -0.31, 0.95, 0, 0);
-    clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 75% 75%, 75% 100%, 50% 75%, 0% 75%);
-    rotate: 29deg;
-    top: -10%;
-    z-index: 2;
-    right: 57%;
-}
-
 
 /*-------------- End Banner Section ----------------*/
 
@@ -272,17 +202,17 @@ img{
     color: #252525;
 }
 
-.partner .company{
+/* .partner .company{
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     margin-top: 5%;
-}
+}*/
 
 .partner .company .box{
-    flex-basis: 20%;
+
     margin-bottom: 5%;
-}
+} 
 
 
 
@@ -401,17 +331,7 @@ margin:5% 0 ;
     flex-basis: 35%;
 }
 
-.how .how-container .works .box .img{
-    width: 102px;
-height: 102px;
-background: #3461FF;
-text-align: center;
-border-radius: 24px;
-}
 
-.how .how-container .works .box .img img{
-    margin-top: 25%;
-}
 
 .how .how-container .works .box h4{
     margin: 7% 0;
@@ -518,7 +438,7 @@ color: rgba(0, 0, 0, 0.6);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 46.5vh;
+    height: 44.5vh;
 
 }
 
@@ -601,6 +521,64 @@ color: #FFFFFF;
 
 /*-------------- End Start Section ----------------*/
 
+.swip{
+    margin: 5% 0;
+}
+
+
+
+.swiper-wrapper{
+    margin: 5% 0;
+}
+
+.swiper-button-prev, .swiper-rtl .swiper-button-next {
+    top: 8% ;
+    right: 9% !important;
+    left: auto;
+}
+
+.swiper-button-next, .swiper-rtl .swiper-button-prev{
+    top: 8%;
+    right: 5%;
+}
+
+
+.swiper {
+    width: 100%;
+    height: 100%;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+    align-items: center;
+    padding: 5%;
+    width: 505px;
+    height: 296px;
+
+    background: #3461FF;
+    border-radius: 30px;
+  }
+
+  /* .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  } */
+  .swiper-slide .head{
+    display: flex;
+  }
+
 /*-------------- Start Our Team  Section ----------------*/
 .meet{
     margin-top: 5%;
@@ -664,24 +642,29 @@ margin: 5% 0;
 /*-------------- End Our Team Section ----------------*/
 /*-------------- Start Journey Section ----------------*/
 
-.journey{
-    margin-top: 5%;
-    background-image: url(/img/Rectangle\ 190.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    padding: 15%;
-}
+
 
 .journey .journey-container{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    width: 100%;
+    height: 80vh;
+    background: #232038;
+    border-radius: 56px;
 }
 
 .journey .journey-container .head .box{
     width: 60%;
     margin-bottom: 10%;
   
+}
+
+.journey .journey-container .head .button button {
+    border-radius: 69px;
+    width: 210px;
+    height: 64px;
+
 }
 
 .journey .journey-container .head .box h1{
@@ -702,9 +685,7 @@ color: #FFFFFF;
 
 }
 
-.journey .journey-container .shape{
-    position: relative;
-}
+
 
 
 /*-------------- End Journey Section ----------------*/
@@ -732,7 +713,11 @@ color: #FFFFFF;
     background: #3461FF;
     color: white;
     border-radius: 50%;
-    padding: 5px;
+    padding: 2px;
+}
+
+.faq .faq-container .how{
+    flex-basis: 45%;
 }
 
 
@@ -752,7 +737,7 @@ color: #FFFFFF;
     color: rgba(0, 0, 0, 0.6);
     mix-blend-mode: normal;
     opacity: 0.75;
-    text-transform: none;
+    text-decoration-line: none;
     width: 62%;
     margin: 3% 0;
 }
@@ -769,6 +754,8 @@ color: #FFFFFF;
     border-radius: 70px;
     font-weight: 500;
     font-size: 16px;
+    width: 144px;
+    height: 50px;
 }
 
 .faq .faq-container .how .email input{
@@ -897,30 +884,22 @@ border-radius: 69px;
 
 /*-------------- End Footer Section ----------------*/
 
+@media (max-width: 1440px){
+    .our-work .boxes .box img{
+        width: 100%;
+    }
+    .our-work .boxes .box {
+        text-align: center;
+        flex-basis: 30%;
+    }
+} 
+
 @media (max-width: 1200px) {
     img{
         width: 100%;
         height: auto;
     }
-    .banner .banner-container .images .box .pin img{
-        width: 70%;
-    }
-
-    .banner .banner-container .images .box2 .pin img {
-        position: absolute;
-        top: 22%;
-        right: 30%;
-        width: 40%;
-    }
-    .banner .banner-container .images .box3 .pin3 {
-        position: absolute;
-        width: 56.94px;
-        height: 75.5px;
-    }
-    .banner .banner-container .images .box3 .pin img,
-    .banner .banner-container .images .box3 .pin2 img{
-        width: 50%;
-    }
+   
     .partner .company .box{
         padding: 0 15px;
     }
@@ -943,7 +922,7 @@ border-radius: 69px;
     }
     .our-work .button button{
         padding: 8px 0;
-        width: 40%;
+        width: 50%;
     }
     .start .start-container{
         flex-wrap: wrap;
@@ -958,13 +937,11 @@ border-radius: 69px;
         height: 50vh;
     }
 
-    .journey .journey-container .shape img{
-        width: 60%;
+    .journey .journey-container{
+        padding: 5%;
     }
-    .journey .journey-container .shape .box{
-        font-size: 30px;
-        right: 56%;
-    }
+
+
 }
 
 
@@ -980,20 +957,6 @@ border-radius: 69px;
         flex-basis: 100%;
     }
 
-    .banner .banner-container .images .box .pin {
-        width: 72.94px;
-        height: 70.5px;
-    }
-    .banner .banner-container .images .box2 .pin img {
-        position: absolute;
-        top: 22%;
-        right: 30%;
-        width: 40%;
-    }
-    .banner .banner-container .images .box3 .pin img,
-    .banner .banner-container .images .box3 .pin2 img{
-        width: 50%;
-    }
 
     .header .header-container .frame nav{
         display: none;
@@ -1020,7 +983,7 @@ border-radius: 69px;
 
     .our-work .boxes{
         flex-wrap: wrap;
-        justify-content: center;
+        justify-content: space-evenly;
     }
 
     .start .start-container .head,
@@ -1034,6 +997,9 @@ border-radius: 69px;
     .journey .journey-container .head .box h1{
         font-size: 32px;
     }
+
+    
+
     .faq .faq-container{
         flex-wrap: wrap;
         
@@ -1042,20 +1008,19 @@ border-radius: 69px;
     .faq .faq-container .ques{
         flex-basis: 100%;
     }
-    
+
+    .our-work .boxes .box {
+        text-align: center;
+        flex-basis: 40%;
+    }
+    .faq .faq-container .how{
+        flex-basis: 100%;
+    }
     
 }
 
 @media (max-width: 768px) {
-    .banner .banner-container .images .box2 .pin img {
-        position: absolute;
-        top: 33%;
-        right: 27%;
-        width: 50%;
-    }
-    .banner .banner-container .images .box2 .pin{
-        width: 28%;
-    }
+    
 
     .container, .container-sm {
         max-width: 100%; 
@@ -1096,22 +1061,30 @@ border-radius: 69px;
     .banner .banner-container .images{
         width: 100%;
     }
-    .banner .banner-container .images .box2 .pin{
-        height: 155px;
+    .our-work .head .text{
+        width: 100%;
     }
+
+    .journey .journey-container{
+        flex-wrap: wrap;
+        height: auto;
+    }
+
+    .journey .journey-container .head .button {
+        text-align: center;
+        margin-bottom: 5%;
+    
+    }
+
 }
 
 @media (max-width: 576px) {
+    .our-work .boxes .box {
+        text-align: center;
+        flex-basis: 100%;
+        margin-top: 5%;
+    }
     
-    .banner .banner-container .images .box .pin {
-        width: 50.94px;
-        height: 52.5px;
-        top: 3%;
-    }
-    .banner .banner-container .images .box3 .pin,
-    .banner .banner-container .images .box3 .pin2{
-        height: 150px;
-    }
     .partner .work .head h1{
         font-size: 30px;
     }
@@ -1132,14 +1105,7 @@ border-radius: 69px;
     .start .start-container .head h1{
         font-size: 25px;
     }
-    .journey .journey-container .shape{
-        width: 60%;
-        margin-left: 20%;
-        margin-top: 5%;
-    }
-    .journey .journey-container .shape .box{
-        font-size: 25px;
-    }
+    
     .journey .journey-container{
         flex-wrap: wrap;
     }
@@ -1173,13 +1139,14 @@ border-radius: 69px;
         font-size: 40px;
     }
 
+    .journey .journey-container .shape{
+        width: 50%;
+    }
+
 }
 
 @media (max-width: 380px) {
-    .banner .banner-container .images .box3 .pin,
-    .banner .banner-container .images .box3 .pin2{
-        height: 177px;
-    }
+
     .partner .work .head h1{
         font-size: 20px;
     }
@@ -1197,21 +1164,11 @@ border-radius: 69px;
     .journey .journey-container .shape .box{
         font-size: 15px;
     }
-    .banner .banner-container .images .box2 .pin{
-        height: 100px;
-    }
+
     .partner .company .box{
         padding: 0 5px;
     }
-    .banner .banner-container .images .box .pin{
-        width: 35.94px;
-        height: 37.5px;
-    }
 
-    .banner .banner-container .images .box3 .pin3 {
-        width: 30.94px;
-        height: 42.5px;
-    }
     
     
 }
@@ -1220,8 +1177,5 @@ border-radius: 69px;
     .start .start-container .head h1{
         font-size: 15px;
     }
-    .banner .banner-container .images .box3 .pin,
-    .banner .banner-container .images .box3 .pin2{
-        height: 100px;
-    }
+
 }
